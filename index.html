@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+    <meta charset="UTF-8">
+    <title>kittv攻防网络</title>
     <style>
         body {
-            background-color: #f0f0f0; /* 浅绿色背景 */
+            background-color: #f0f0f0;
             font-family: 微软雅黑;
             text-align: center;
+            padding: 20px;
         }
-        /* 新增：图片容器样式 */
         .img-container {
-            display: flex; /* 核心：让图片排成一行 */
-            justify-content: center; /* 让图片整体居中 */
-            gap: 10px; /* 图片之间的间距 */
-            flex-wrap: wrap; /* 屏幕太窄时自动换行 */
-            margin: 20px 0; /* 上下留点空隙 */
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin: 20px 0;
         }
         .img-container img {
-            width: 180px; /* 统一宽度 */
-            height: 180px; /* 统一高度 */
-            object-fit: cover; /* 图片不变形 */
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -26,7 +34,6 @@
     <h1>ddos认准kittv</h1>
     <p>网站攻击 服务器攻击 棋牌软件攻击<br>企鹅769687722</p >
 
-    <!-- 把所有图片放进这个div里 -->
     <div class="img-container">
         < img src="qw.jpeg" alt="这是我的图片">
         < img src="qe.jpeg" alt="这是我的图片">
